@@ -6,11 +6,11 @@
     <title>{{ config('app.name')}}::@yield('title')</title>
 </head>
 <body>
-    <footer>
+
     <div class="conteiner">
     @yield('conteudo')
     </div>
-        
+    <footer>
         <p>Digital - 2020</p>
     </footer>
 </body>
